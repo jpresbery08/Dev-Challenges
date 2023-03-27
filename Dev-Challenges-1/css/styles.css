@@ -1,0 +1,122 @@
+/* -------------
+    IMPORTING FONTS
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@700&display=swap');
+
+
+/* font-family: 'Inconsolata', monospace; */
+/* font-family: 'Space Mono', monospace; */
+
+/* -------------
+    COLORS
+-----------------*/
+
+:root {
+    --white: #FFFFFF;
+    --gray-one: #333333;
+    --gray-two: #4F4F4F;
+    --light-gray: #BDBDBD;    
+}
+
+/* -------------
+    TEXT DESIGN
+-----------------*/
+.bold {
+    font-weight: bold;
+}
+
+/* -------------
+    GENERAL DESIGN
+-----------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: var(--white);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+/* -------------
+   HEADER (title)
+-----------------*/
+.title h2 {
+    font-size: 24px;
+    font-family: 'Inconsolata', monospace;
+    text-transform: uppercase;
+    color: var(--gray-one);
+    font-weight: 700;
+    padding: 20px
+}
+
+/* -------------
+   MAIN
+-----------------*/
+.main-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+/* -------------
+   IMAGE (LEFT SIDE)
+-----------------*/
+.content-image img{
+    width: 539px;
+    height: 447px;
+}
+
+/* -------------
+   INFO (RIGHT SIDE)
+-----------------*/
+
+.content-info h1{
+    font-size: 64px;
+ *   font-family: 'Space Mono', monospace;
+    font-weight: 700px;
+    color: var(--gray-one);
+}
+
+.content-info p{
+    margin-top: 30px;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 400px;
+    color: var(--gray-two); 
+}
+
+.content-info button{
+    margin-top: 30px;
+    font-family: 'Space Mono', monospace;
+    background-color: var(--gray-one);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    padding: 23px 43px;
+    cursor: pointer;
+}
+/* ---- HOVER EFFECT FOR BUTTON ---- */
+/* .content-info button:hover{
+    margin-top: 30px\    font-family: 'Space Mono', monospace;    background-color: var(--gray-two);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 700px;
+    text-transform: uppercase;
+    padding: 26px 46px;
+    cursor:pointer;
+} */
+
+/* -------------
+   FOOTER
+-----------------*/
+
